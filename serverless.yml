@@ -8,8 +8,7 @@ provider:
   region: us-east-1
 
 functions:
-  app:
-    ageoftesting:
+  ageoftesting:
     handler: index.handler
     events:
       - http: ANY /
