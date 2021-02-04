@@ -1,7 +1,6 @@
 # serverless.yml
 
-service: my-express-application
-
+service: theservice
 provider:
   name: aws
   runtime: nodejs6.10
